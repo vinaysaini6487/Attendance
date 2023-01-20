@@ -1,0 +1,128 @@
+body{
+    margin: 0px;
+    padding: 0px;
+ 
+    background: url('img/yoshiko-evanka-oI90dywodT8-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+ 
+}
+.logo{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+left: 34px;
+top: 10px;
+
+}
+.nav{
+    background-color: rgba(250, 248, 248, 0.603);
+    display: block;
+    width: 50%;
+    margin:15px auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 350px;
+
+    
+}
+
+
+.navbar{
+    display: inline-block;
+  
+}
+.navbar li {
+    display: inline-block;
+    font-size: 24px;
+   
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color:rgb(10, 9, 9)
+   
+}
+.navbar li a:hover{
+    text-decoration: underline;
+   color:rgb(15, 63, 134);
+   
+}
+
+.nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+.nav ul li:hover > ul{
+    display: block;
+
+}
+
+ 
+
+ div img{
+    width: 100px;
+}
+.logo div{
+    text-align: center;
+}
+.search{
+    /* border: 2px solid rgb(98, 0, 255); */
+    position: absolute;
+right: 34px;
+top: 15px;
+    display: inline-block;
+   
+
+}
+.btn{
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    margin: 0px;
+padding: 5px 14px;
+font-size: 20px;
+font-family: 'Source Sans Pro', sans-serif ;
+border-radius:10px;
+border: 2px solid white;
+}
+.slider-box{
+    width: 70%;
+    height: 600px;
+    position: absolute;
+ top: 90%;
+
+ left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url('img/nsti1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 2px 10px 5px rgb(19, 18, 18);
+    animation: slider 15s infinite linear;
+}
+@keyframes slider{
+    0%{
+        background-image: url('img/nsti1.jpg');
+    }
+    35%{
+        background-image: url('img/nsti2.jpg');
+    }
+    75%{ 
+        background-image: url('img/nsti3.jpg');
+    }
+    
+  
+}
+.con2{
+    text-align: center;
+    margin-top: 50px;
+
+height: 100px;
+width: 100%;
+background-color: rgba(240, 227, 227, 0.473);
+color: black;
+padding: 3px;
+font-size: 23px;
+
+}

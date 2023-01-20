@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+    padding: 0px;
+ 
+    background: url('img/un4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+ 
+}
+.logo{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+left: 34px;
+top: 60px;
+
+}
+.nav{
+    background-color: rgba(250, 248, 248, 0.603);
+    display: block;
+    width: 50%;
+    margin:15px auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 350px;
+
+    
+}
+
+
+.navbar{
+    display: inline-block;
+  
+}
+.navbar li {
+    display: inline-block;
+    font-size: 24px;
+   
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color:rgb(10, 9, 9)
+   
+}
+.navbar li a:hover{
+  text-decoration: underline;
+   color:rgb(15, 63, 134);
+
+
+}
+
+.nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+.nav ul li:hover > ul{
+    display: block;
+
+
+ }
+ div img{
+    width: 100px;
+    position: relative;
+    bottom: 50px;
+}
+.logo div{
+    text-align: center;
+}
+.search{
+    /* border: 2px solid rgb(98, 0, 255); */
+    position: absolute;
+right: 34px;
+top: 15px;
+    display: inline-block;
+   
+
+}
+.btn{
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    margin: 0px;
+padding: 5px 14px;
+font-size: 20px;
+font-family: 'Source Sans Pro', sans-serif ;
+border-radius: 15%;
+border: 2px solid white;
+}
+.container{
+    
+    background-color: rgba(39, 38, 38, 0.568);
+      margin: 50px 70px;
+     position: relative;
+     left:300px;
+  
+      padding: 75px;
+      width: 30%;
+      height: 500px;
+      text-align: center;
+    
+      
+  
+  }
+  .form-group input{
+  
+      display: block;
+      width: 80%;
+  position: relative;
+  bottom: 50px;
+      padding: 4px;
+      margin: 11px auto;
+      font-size: 18px;
+      color: black;
+      
+     
+  }
+  
+  .container button{
+      text-align: center; 
+      display: block; 
+      border-radius: 12px 5px 12px 5px;
+      width: 80%;
+      font-size: 18px;
+       padding: 4px;
+       font-size: 18px;
+       margin:11px auto;
+       position: relative;
+       bottom: 100px;
+       cursor: pointer;
+       background-color: black;
+       color:white
+       
+  }
